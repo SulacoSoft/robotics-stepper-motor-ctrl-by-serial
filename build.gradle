@@ -17,6 +17,10 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
 
+version = '0.1.0'
+group = 'com.sulacosoft.robotics'
+def artifactId = 'StepperMotorConnector4J'
+
 repositories {
 	jcenter()
 }
